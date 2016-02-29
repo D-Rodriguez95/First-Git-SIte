@@ -1,0 +1,88 @@
+p {
+	color: #006622;
+	font-family: sans-serif;
+}
+
+a h1 {
+	font-family: myFirstFont;
+	font-size: 10em;
+	color: #006622;
+	padding-top: 15px;
+	padding-bottom: 150px;
+	letter-spacing: 10px;
+}
+
+
+.menu a {
+	color: white;
+}
+
+.menu a:hover {
+	color: #006622; 
+}
+
+div {
+	padding-bottom: 50px;
+}
+
+.menu {
+	background: black;
+	width: 400px;
+	height: 100vh; /***100% of the height of the viewport ***/
+	position: fixed;
+	right: 0;
+	z-index: 1000;
+	opacity: 0.8;
+	padding-top: 300px;
+}
+
+@font-face {
+	font-family: myFirstfont;
+	src: url(PotLand.ttf);
+}
+
+
+
+/** First-Code **/
+
+#myCarousel {
+	padding: 15px;
+}
+
+#myCarousel img {
+	width: 100vw;
+}
+
+#portfolio>div {
+	padding: 15px;
+}
+
+ .bg-orange {
+	background-color: #F00D05;
+	padding: 30px;
+	margin: 40px 15px;
+}
+
+ .bg-yellow {
+	background-color: yellow;
+	padding: 30px;
+	margin: 40px 15px;
+}
+
+ .bg-gray {
+	background-color: gray;
+	padding: 30px;
+	margin: 40px 15px;
+}
+
+ .bg-green {
+	background-color: green;
+	padding: 30px;
+	margin: 40px 15px;
+}
+
+ .bg-black {
+	background-color: black;
+	padding: 30px;
+	margin: 40px 15px;
+}
