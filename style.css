@@ -1,3 +1,8 @@
+body {
+	background-color: #b38f00;
+
+}
+
 p {
 	color: #006622;
 	font-family: sans-serif;
@@ -12,28 +17,28 @@ a h1 {
 	letter-spacing: 10px;
 }
 
+div {
+	padding-bottom: 50px;
+}
 
 .menu a {
 	color: white;
+
 }
 
 .menu a:hover {
 	color: #006622; 
 }
 
-div {
-	padding-bottom: 50px;
-}
-
 .menu {
 	background: black;
-	width: 400px;
-	height: 100vh; /***100% of the height of the viewport ***/
+	width: 2000px;
+	
 	position: fixed;
 	right: 0;
 	z-index: 1000;
 	opacity: 0.8;
-	padding-top: 300px;
+	
 }
 
 @font-face {
