@@ -1,3 +1,8 @@
+body {
+	background-color: #b38f00;
+
+}
+
 p {
 	color: #006622;
 	font-family: sans-serif;
@@ -12,28 +17,28 @@ a h1 {
 	letter-spacing: 10px;
 }
 
+div {
+	padding-bottom: 50px;
+}
 
 .menu a {
 	color: white;
+
 }
 
 .menu a:hover {
 	color: #006622; 
 }
 
-div {
-	padding-bottom: 50px;
-}
-
 .menu {
 	background: black;
-	width: 400px;
-	height: 100vh; /***100% of the height of the viewport ***/
+	width: 2000px;
+	
 	position: fixed;
 	right: 0;
 	z-index: 1000;
 	opacity: 0.8;
-	padding-top: 300px;
+	
 }
 
 @font-face {
@@ -57,32 +62,58 @@ div {
 	padding: 15px;
 }
 
+#portfolio img:hover{
+	filter: hue-rotate(360deg) invert(1);
+	-webkit-filter: hue-rotate(360deg) invert(1);
+}
+
+.hide-title>h5 {
+	position: absolute;
+	right: 10%;
+	bottom: 10%;
+	color: white;
+	font-size: 1.3em;
+	z-index: 10; 
+}
+
+#portfolio img{
+	transition:1.0s;
+}
+
  .bg-orange {
 	background-color: #F00D05;
 	padding: 30px;
 	margin: 40px 15px;
+	position: relative;
 }
 
  .bg-yellow {
 	background-color: yellow;
 	padding: 30px;
 	margin: 40px 15px;
+	position: relative;
+
 }
 
  .bg-gray {
 	background-color: gray;
 	padding: 30px;
 	margin: 40px 15px;
+	position: relative;
+
 }
 
  .bg-green {
 	background-color: green;
 	padding: 30px;
 	margin: 40px 15px;
+	position: relative;
 }
 
  .bg-black {
 	background-color: black;
 	padding: 30px;
 	margin: 40px 15px;
+	position: relative;
+
 }
