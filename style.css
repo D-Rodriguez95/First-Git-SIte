@@ -32,12 +32,13 @@ div {
 
 .menu {
 	background: black;
-	width: 2000px;
-	
+	width: 400px;
+	height: 100vh;
 	position: fixed;
-	right: 0;
+	right: -400px;
 	z-index: 1000;
 	opacity: 0.8;
+	padding-top: 300px;
 	
 }
 
