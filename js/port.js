@@ -26,7 +26,7 @@ $(document).mousemove(function (){
 	if($(window).width()-event.pageX < 200) {
 		$(".menu").css("right","0");
 	}else{
-		$(".menu").css("right","-400");
+		$(".menu").css("right","-400px");
 	}
 });
 
