@@ -32,6 +32,7 @@ div {
 
 .menu {
 	background: black;
+<<<<<<< HEAD
 	width: 300px;
 	right: -400px;
 	height: 100vh;
@@ -41,6 +42,16 @@ div {
 	padding-top: 300px;
 	transition: 1s;
 	-webkit-transition: 1s;/*for safari 3.1 to 6.0*/
+=======
+	width: 400px;
+	height: 100vh;
+	position: fixed;
+	right: -400px;
+	z-index: 1000;
+	opacity: 0.8;
+	padding-top: 300px;
+	
+>>>>>>> gh-pages
 }
 
 @font-face {
